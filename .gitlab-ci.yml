@@ -12,6 +12,6 @@
 test:7.0:
   image: php:7.0
   services:
-    - phpunit/phpunit:5.5.0      
+    - phpunit:5.5.0      
   script:
   - phpunit --configuration config.xml --testsuite Library

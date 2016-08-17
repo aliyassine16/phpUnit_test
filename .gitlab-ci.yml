@@ -12,4 +12,4 @@ before_script:
 test:7.0:
   image: php:7.0
   script:
-  - phpunit --configuration test/config.xml
+  - phpunit --configuration config.xml --testsuite Library
